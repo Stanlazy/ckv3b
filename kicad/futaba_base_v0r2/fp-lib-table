@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Connector_Edge_futababase")(type "KiCad")(uri "${KIPRJMOD}/Connector_Edge_futababase.pretty")(options "")(descr ""))
+)
