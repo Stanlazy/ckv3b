@@ -1,0 +1,90 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.43129",
+   "Default View_TopLeft":"-116,-48",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1490 -y 80 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1490 -y 100 -defaultsOSRD
+preplace port TTY -pg 1 -lvl 5 -x 1490 -y 120 -defaultsOSRD
+preplace port BT -pg 1 -lvl 5 -x 1490 -y 140 -defaultsOSRD
+preplace port MB_IIC -pg 1 -lvl 5 -x 1490 -y 160 -defaultsOSRD
+preplace port OPT_IIC -pg 1 -lvl 5 -x 1490 -y 180 -defaultsOSRD
+preplace port port-id_BUT1 -pg 1 -lvl 0 -x -10 -y 20 -defaultsOSRD
+preplace port port-id_BUT2 -pg 1 -lvl 0 -x -10 -y 40 -defaultsOSRD
+preplace port port-id_BUT3 -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port port-id_BUT4 -pg 1 -lvl 0 -x -10 -y 80 -defaultsOSRD
+preplace port port-id_PL_CLK -pg 1 -lvl 0 -x -10 -y 120 -defaultsOSRD
+preplace port port-id_RTC_INT -pg 1 -lvl 0 -x -10 -y 140 -defaultsOSRD
+preplace port port-id_RTC_32K -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port port-id_AD_BCLK -pg 1 -lvl 5 -x 1490 -y 20 -defaultsOSRD
+preplace port port-id_AD_CTRL -pg 1 -lvl 5 -x 1490 -y 40 -defaultsOSRD
+preplace port port-id_AD_FCLK -pg 1 -lvl 5 -x 1490 -y 60 -defaultsOSRD
+preplace port port-id_AD_SDATA -pg 1 -lvl 5 -x 1490 -y 200 -defaultsOSRD
+preplace port port-id_BUZZ_N -pg 1 -lvl 5 -x 1490 -y 220 -defaultsOSRD
+preplace port port-id_WL_EN -pg 1 -lvl 5 -x 1490 -y 500 -defaultsOSRD
+preplace port port-id_LEDR -pg 1 -lvl 5 -x 1490 -y 300 -defaultsOSRD
+preplace port port-id_LEDG -pg 1 -lvl 5 -x 1490 -y 280 -defaultsOSRD
+preplace port port-id_LEDB -pg 1 -lvl 5 -x 1490 -y 260 -defaultsOSRD
+preplace port port-id_LED2 -pg 1 -lvl 5 -x 1490 -y 320 -defaultsOSRD
+preplace port port-id_LED3 -pg 1 -lvl 5 -x 1490 -y 340 -defaultsOSRD
+preplace port port-id_BUZZ_P -pg 1 -lvl 5 -x 1490 -y 240 -defaultsOSRD
+preplace port port-id_VH_EN -pg 1 -lvl 5 -x 1490 -y 520 -defaultsOSRD
+preplace port port-id_VF_EN -pg 1 -lvl 5 -x 1490 -y 540 -defaultsOSRD
+preplace port port-id_VF_T1 -pg 1 -lvl 5 -x 1490 -y 560 -defaultsOSRD
+preplace port port-id_VF_T2 -pg 1 -lvl 5 -x 1490 -y 580 -defaultsOSRD
+preplace port port-id_VFD_nRST -pg 1 -lvl 5 -x 1490 -y 600 -defaultsOSRD
+preplace port port-id_VFD_nCS -pg 1 -lvl 5 -x 1490 -y 620 -defaultsOSRD
+preplace port port-id_VFD_SCK -pg 1 -lvl 5 -x 1490 -y 640 -defaultsOSRD
+preplace port port-id_VFD_SDO -pg 1 -lvl 5 -x 1490 -y 660 -defaultsOSRD
+preplace port port-id_OPT_INT -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port port-id_PMIC_INT -pg 1 -lvl 0 -x -10 -y 670 -defaultsOSRD
+preplace port port-id_VFD_INT -pg 1 -lvl 0 -x -10 -y 780 -defaultsOSRD
+preplace inst processing_system7 -pg 1 -lvl 3 -x 970 -y 160 -defaultsOSRD
+preplace inst futaba_init_rom -pg 1 -lvl 4 -x 1350 -y 340 -defaultsOSRD
+preplace inst futaba_vram -pg 1 -lvl 4 -x 1350 -y 450 -defaultsOSRD
+preplace inst ps7_axi_periph -pg 1 -lvl 2 -x 560 -y 470 -defaultsOSRD
+preplace inst rst_ps7 -pg 1 -lvl 1 -x 200 -y 510 -defaultsOSRD
+preplace inst futaba_dma_intercon -pg 1 -lvl 2 -x 560 -y 130 -defaultsOSRD
+preplace inst interrupt_glue -pg 1 -lvl 2 -x 560 -y 690 -defaultsOSRD
+preplace inst futaba_controller -pg 1 -lvl 3 -x 970 -y 560 -defaultsOSRD
+preplace netloc PMIC_INT_1 1 0 2 NJ 670 NJ
+preplace netloc VFD_INT_1 1 0 3 10J 610 NJ 610 NJ
+preplace netloc futaba_controller_core_int_finished 1 1 3 410 770 NJ 770 1190
+preplace netloc futaba_controller_core_int_started 1 1 3 380 780 NJ 780 1200
+preplace netloc futaba_controller_wr_0_ddr_arb 1 2 2 750 350 1200
+preplace netloc futaba_controller_wr_0_spi_ncs 1 3 2 NJ 620 NJ
+preplace netloc futaba_controller_wr_0_spi_nrst 1 3 2 NJ 600 NJ
+preplace netloc futaba_controller_wr_0_spi_sck 1 3 2 NJ 640 NJ
+preplace netloc futaba_controller_wr_0_spi_sdo 1 3 2 NJ 660 NJ
+preplace netloc futaba_controller_wr_0_vf_en 1 3 2 NJ 540 NJ
+preplace netloc futaba_controller_wr_0_vf_t1 1 3 2 NJ 560 NJ
+preplace netloc futaba_controller_wr_0_vf_t2 1 3 2 NJ 580 NJ
+preplace netloc futaba_controller_wr_0_vh_en 1 3 2 NJ 520 NJ
+preplace netloc interrupt_glue_0_IRQ 1 2 1 710 190n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 410 380 250 740 330 1190
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 5 20 790 NJ 790 NJ 790 1210 530 1460J
+preplace netloc rst_ps7_0_200M_peripheral_aresetn 1 1 2 390 590 750
+preplace netloc axi_mem_intercon_M00_AXI 1 2 1 N 130
+preplace netloc futaba_controller_wr_0_BRAM_IN 1 3 1 N 460
+preplace netloc futaba_controller_wr_0_BRAM_OUT 1 3 1 N 440
+preplace netloc futaba_controller_wr_0_INIT_ROM 1 3 1 1220J 340n
+preplace netloc futaba_controller_wr_0_M_AXI 1 1 3 410 340 NJ 340 1190
+preplace netloc processing_system7_0_DDR 1 3 2 NJ 80 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 3 2 NJ 100 NJ
+preplace netloc processing_system7_0_IIC_0 1 3 2 NJ 160 NJ
+preplace netloc processing_system7_0_IIC_1 1 3 2 NJ 180 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 3 400 320 NJ 320 1200
+preplace netloc processing_system7_0_UART_0 1 3 2 NJ 120 NJ
+preplace netloc processing_system7_0_UART_1 1 3 2 NJ 140 NJ
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 720 470n
+levelinfo -pg 1 -10 200 560 970 1350 1490
+pagesize -pg 1 -db -bbox -sgen -130 0 1620 800
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}
